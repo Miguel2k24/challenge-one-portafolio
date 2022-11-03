@@ -1,0 +1,422 @@
+@media screen and (max-width: 600px) {
+    .tudo{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .panel-btn{
+        background: rgb(143, 3, 3);
+        position: fixed;
+        z-index: 999;
+        right: 5px;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel{
+        
+        position: fixed;
+        z-index: 998;
+        width: 100%;
+        background: rgba(128, 128, 128, 0.555);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transition: transform .3s ease;
+        transform: translate(0, -150%);
+    }
+
+    .panel.is-active{
+        transform: translate(0,0);
+    }
+
+    .menu{
+        display: block;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    
+    }
+
+
+    .menu__list{
+        display: block;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .menu__list__item{
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 500;
+        width: 100%;
+        text-align: none;
+        background: rgba(0, 0, 0, 0.774);
+        padding:15px 0 15px 0 ;
+        margin: 25px 0 20px 0;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .contacto{
+        font-size: 15px;
+    }
+
+    .menu__list__item a{
+        color: white;
+    }
+
+    
+
+    .title{
+        margin-top: 1rem;
+    }
+
+    .title__div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title__profile{
+        width: 150px;
+        border-radius: 200px;
+        box-shadow: 0px 0px 10px rgba(121, 111, 111, 0.712);
+        
+    }
+
+    .title__container{
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .title__bio{
+        font-size: 1.5rem;
+        align-items: center;
+        color: rgb(43, 42, 41);
+    }
+    
+    .title__network__item{
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        line-height: 1rem;
+        font-size: .8rem;
+        color: rgb(76, 77, 78);
+        font-weight: 100;
+        
+    }
+
+    .title__network{
+        padding-left: 10px;
+    }
+
+    .about {
+        background: linear-gradient( 109.6deg, rgb(132, 165, 226) 11.2%, rgb(123, 240, 201) 100.2%);
+        height: 70vh;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(121 111 111);
+    }
+
+    .about__container {
+        padding-left: 20px;
+        padding-right: 0; 
+        width: 90%; 
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .skills__line {
+        display: grid;
+    }
+
+    .hobbies__line{
+        display: grid;
+        justify-content: end;
+        text-align: center;
+    }
+
+    .academic__courses__box {
+        padding-right: 0;
+    }
+
+    .academic__courses__list{
+        text-align: none;
+        padding-left: .1px;
+    }
+
+    .academic__courses__item__img img {
+        width: 20rem;
+        
+    }
+
+    .academic__courses__item__title h4{
+        font-size: 20px;
+    }
+
+    .academic__courses__item__subtitle p{
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+
+    .experience__container{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .experience__img {
+        width: 280px;
+        height: 180px;
+        border-radius: 10px;
+    }
+
+    .experience__title {
+        font-size: 1rem;
+    }
+
+    .experiencia__botao--repo{
+        font-size: 1rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .experience__botao--demo{
+        font-size: 1rem;
+        margin-right: 0;
+    }
+
+    .formcontato__contacto {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .formcontato--esquerda{
+        display: flex;
+        justify-content: center;
+    }
+
+    .formcontato__img{
+        width: 200px;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    #transi:hover{
+        transition: all 800ms ease;
+        width: 20rem;
+        transform: translate(0, -20px);
+    }
+
+    .itmp {
+        width: 20rem;
+        text-align: center;
+    }
+
+    .formcontato__text {
+        padding: 1rem;
+    }
+
+    .formcontato__title {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .formcontato__input{
+        width: 15rem;
+    }
+
+    .formcontato__textarea{
+        resize: none;
+        max-width: 15rem;
+    }
+
+    .formcontato__botao{
+        width: 15rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    
+    .tudo{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .panel-btn{
+        background: rgb(143, 3, 3);
+        position: fixed;
+        z-index: 999;
+        right: 5px;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel{
+        
+        position: fixed;
+        z-index: 998;
+        width: 100%;
+        background: rgba(128, 128, 128, 0.555);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transition: transform .3s ease;
+        transform: translate(0, -150%);
+    }
+
+    .panel.is-active{
+        transform: translate(0,0);
+    }
+
+    .menu{
+        display: block;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    
+    }
+
+
+    .menu__list{
+        display: block;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .menu__list__item{
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 500;
+        width: 100%;
+        text-align: none;
+        background: rgba(0, 0, 0, 0.774);
+        padding:15px 0 15px 0 ;
+        margin: 25px 0 20px 0;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .contacto{
+        font-size: 15px;
+    }
+
+    .menu__list__item a{
+        color: white;
+    }
+
+    .title__div{
+        flex-direction: column-reverse
+    }
+
+    .skills__line {
+        display: grid;
+    }
+
+    .hobbies__line{
+        display: grid;
+        justify-content: end;
+        text-align: center;
+    }
+
+    .experience__container{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .formcontato__contacto {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .formcontato--esquerda{
+        display: flex;
+        justify-content: center;
+    }
+
+    .formcontato__img{
+        width: 200px;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    #transi:hover{
+        transition: all 800ms ease;
+        width: 35rem;
+        transform: translate(0, -20px);
+    }
+
+    .itmp {
+        width: 20rem;
+        text-align: center;
+    }
+
+    .formcontato__text {
+        padding: 1rem;
+    }
+
+    .formcontato__title {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .formcontato__input{
+        width: 15rem;
+    }
+
+    .formcontato__textarea{
+        resize: none;
+        max-width: 15rem;
+    }
+
+    .formcontato__botao{
+        width: 15rem;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 769px){
+    #botoon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .tudo{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px){
+    .tudo{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
