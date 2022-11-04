@@ -234,7 +234,7 @@
     }
 
     .formcontato__input{
-        width: 15rem;
+        width: 20rem;
     }
 
     .formcontato__textarea{
@@ -246,6 +246,12 @@
         width: 15rem;
     }
 
+    .footer{
+        width: 100vw;
+        padding: none;
+    }
+
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -384,18 +390,23 @@
     }
 
     .formcontato__input{
-        width: 15rem;
+        width: 20rem;
     }
 
     .formcontato__textarea{
         resize: none;
-        max-width: 15rem;
+        max-width: 20rem;
     }
 
     .formcontato__botao{
-        width: 15rem;
+        width: 20rem;
+        text-align: center;
     }
 
+    .footer{
+        width: 100vw;
+        padding: 5px;
+    }
 
     
 }
@@ -404,12 +415,21 @@
     #botoon{
         display: none;
     }
+
+    .footer{
+        width: 100vw;
+        padding: 5px;
+    }
 }
 
 @media screen and (max-width: 950px){
     .tudo{
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    .footer{
+        width: 100vw;
+        padding: 5px;
     }
 }
 
@@ -418,5 +438,10 @@
     .tudo{
         padding-left: 5rem;
         padding-right: 5rem;
+    }
+
+    .footer{
+        width: 100vw;
+        padding: 5px;
     }
 }
