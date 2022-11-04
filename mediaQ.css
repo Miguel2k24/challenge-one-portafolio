@@ -215,7 +215,6 @@
 
     #transi:hover{
         transition: all 800ms ease;
-        width: 20rem;
         transform: translate(0, -20px);
     }
 
