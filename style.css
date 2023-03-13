@@ -48,6 +48,10 @@ html{
     padding-right: 9rem;
 }
 
+.certificado{
+    color: #e70b25ad;
+}
+
 
 .menu{
     display: flex;
@@ -78,7 +82,7 @@ html{
 }
 
 .menu__list__item :hover{
-    color: rgb(11, 74, 146);
+    color: #e70b25ad;
 }
 
 .contacto{
@@ -113,6 +117,7 @@ html{
 .title__subsection{
     font-weight: 100;
     color: rgb(76, 77, 78);
+    line-height: 30px;
 }
 
 .title__network{
@@ -131,7 +136,7 @@ html{
 }
 
 .title__network__item :hover{
-    color: rgb(11, 74, 146);
+    color: #e70b25ad;
 }
 
 
@@ -300,7 +305,7 @@ html{
 
 .experience__img{
     width: 500px;
-    height: 300px;
+    height: 250px;
     border-radius: 10px;
 }
 
